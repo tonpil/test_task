@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Test Task",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "program": "${workspaceFolder}/backend/main.go", // путь к main.go
+            "envFile": "${workspaceFolder}/.env", // путь к вашему .env-dev файлу
+            "cwd": "${workspaceFolder}/backend", // рабочая директория
+            "console": "integratedTerminal",
+            "args": []
+        }
+    ]
+}
